@@ -2,7 +2,7 @@
           .wrap{
             width:300px;margin:0 auto;
             margin-top:150px;
-           }
+          }
           .mytitle{
             color:white;
             background-image: url('http://www.forest.go.kr/newkfsweb/cmm/fms/FileDown.do?atchFileId=FILE_000000010008639&fileSn=0');
@@ -15,13 +15,13 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            } 
-                  /* 자식선택자: mytitle 바로 아래 있는 h1 태그 */
+          } 
+          /* 자식선택자: mytitle 바로 아래 있는 h1 태그 */
           .mytitle > h1 {
-          margin: 0 0 5px 0;
-           }
-      
-           /* 자식선택자: mytitle 바로 아래 있는 h5 태그 */
+            margin: 0 0 5px 0;
+          }
+          
+          /* 자식선택자: mytitle 바로 아래 있는 h5 태그 */
           .mytitle > h5 {
-          margin: 5px 0 0 0;
+            margin: 5px 0 0 0;
           }
